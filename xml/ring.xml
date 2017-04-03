@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<products>
+	<baseurl>img/prod/</baseurl>
+<product>
+		<name>One Ring</name>
+		<img1>ring/1.jpg</img1>
+		<img2>ring/2.jpg</img2>
+		<img3>ring/3.jpg</img3>
+		<img4>ring/4.jpg</img4>
+		
+		<para1>The greatest of all the Rings of Power and the most powerful artifact in all of Middle-Earth, the One Ring was created by the Dark Lord Sauron in the fires of Orodruin (Mount Doom) during the Second Age. His intent was to concentrate and enlarge his own power, and in time gain overlordship of all of Middle-Earth. Sauron also wanted control over the other 19 Rings of Power, which had been made by Celebrimbor and his people with Sauron's assistance.
+		</para1>
+
+		<para2>Though it appeared to be made of simple gold, the Ring was impervious to damage, and could only be destroyed by throwing it into the pit of the volcanic Mount Doom in which it had originally been forged. Unlike the lesser Rings, it bore no identifying gemstone, but its identity could be determined by a simple (though little-known) test: when heated in a fire, it displayed fiery Tengwar letters in the Black Speech of Mordor, forming a section of poetry from part of its lore - the Ring-inscription.
+		</para2>
+	</product>
+</products>

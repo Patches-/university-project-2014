@@ -1,0 +1,194 @@
+/* COLORS!
+
+===============================
+		Page Colors
+===============================
+Text color 							rgb(51,51,68)
+Page background color 		rgb(238,238,238)
+Link bacground color 			rgb(204,204,204)
+header background color 	rgb(51,51,68)
+
+
+===============================
+		LABEL COLORS
+===============================
+	red	- rgb(196,89,30)
+	green - rgb(131,178,51)
+	blue - rgb(65,117,160)
+	Orange - rgb(255,112,0)
+
+
+--------------end of colors------------*/
+
+/* When selecting text or images the selection is the orange which matches the color scheme! */
+::selection {background: rgb(255,112,0); text-shadow: none;}
+
+body {
+	font-family: Helvetica;
+	color: rgb(238,238,238);
+	margin: 0;
+	background-color: #474747;
+	background-size: 100%;
+}
+
+#wrapper {
+	margin: auto;
+	border-left: thin black solid;
+	border-right: thin black solid;
+	background-color: rgba(160,160,160,0.5);
+	width: 100%;
+	max-width: 1220px;
+}
+
+#header{
+	position: relative;
+	width: 100%;
+	max-width: 1220px;
+	height: 118px;
+	background-color: rgb(51,51,68);
+}
+
+/*==============================================
+             	TRIVIA SCROLLER
+==============================================*/
+
+#triviabanner {
+    overflow: hidden;
+	width: 1180px;
+	height: 30px;
+	top: 0;
+	z-index: 20;
+	right: 20px;
+	margin-top: 10px;
+	background: rgb(131,178,51);
+}
+
+#triviatext {
+    white-space:nowrap;
+    display:inline;
+    width:auto;
+}
+
+
+#triviatext p { margin: 4px; font-size: 18px; }
+
+.newscorner{height:0px; width:0px; border-right: rgb(131,178,51) solid 15px; border-top: transparent solid 15px; border-bottom: transparent solid 15px;
+	z-index: -1; position: relative; 
+	top: -15px; left: 0px;}
+
+.boxshadow{box-shadow: inset -5px -5px 50px rgba(0, 0, 0, 0.4);}
+
+.hidden { display:none !important; }
+
+#soundicon { position: absolute; left: 500px; top: 73px; }
+#soundicon img { height: 24px; width: 24px; }
+
+#maincontent { padding: 20px; }
+
+/*==============================================
+             IMAGE SLIDER
+==============================================*/
+
+#indexslider { height: 600px; }
+#indexslider img { height: 600px; width: 1180px; }
+
+.overslidertext { position: absolute; top: -18px; padding: 15px; }
+.overslidertext a { text-decoration: none; }
+
+.overslidertext a h3{
+	margin: 0;
+	font-size: 86px;
+    color: rgb(196,89,30);
+    text-shadow: 0px 5px 8px #2a2a2a;
+    transition: color ease-in 1s;
+}
+
+.overslidertext a h3:hover{ 
+    color: #a0a0a0;  
+}
+
+.custom-pager-nav {width: 100%; position: absolute; bottom: 0;  text-align: center; z-index: 200;}
+.custom-pager-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+ol.custom-pager-nav {padding: 0;}
+.custom-pager li a {width: 15px; height: 15px; display: block; cursor: pointer; text-indent: -9999px; border-radius: 50%; border: 2px solid #fff; }
+.custom-pager li.cycle-pager-active a { background: #fff; background: #fff; cursor: default; height: 10px; width: 10px; position: relative; top: 3px; }
+.custom-pager li a:hover { background: #fff; }
+
+
+#navcontain{ position: absolute; right: 0; bottom: 0;}
+
+
+nav {background:#FFF;}
+nav ul { padding: 0; margin: 0; text-align:center;}
+nav ul li {transition: all .3s ease-out; float:left; display:inline; }
+nav ul li:hover {color:rgb(51,51,68); background:rgb(238,238,238); }
+nav ul li a { text-decoration: none; border-right: 1px solid white; display:block; padding:15px 25px; color:rgb(238,238,238); }
+nav ul li:hover a {color:rgb(51,51,68);}
+nav ul li ul {transition: all .3s ease-out; position:absolute; width:110px; background:white;}
+nav ul li ul li {width:110px;}
+nav ul li ul li a {display:block;padding:15px 10px; color:rgb(51,51,68);}
+nav ul li ul li:hover a {background:#F7F7F7; color:rgb(51,51,68);}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block;}
+
+.lastlink{border-right: none !important;}
+
+.boxshadow{box-shadow: inset -5px -5px 50px rgba(0, 0, 0, 0.4);}
+
+#productnavcontain { margin-bottom: 20px; }
+#productnav { width: 791px; margin: auto; background-color: rgb(131,178,51); }
+
+
+#imgsection { float: left; width: 520px; }
+
+#thumbnails { float: left; width: 75px; }
+
+#thumbnails img { height: 75px; width: 75px; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);}
+
+#mainimgcontain { float: right; width: 440px; }
+
+#mainimgcontain img { max-width: 440px; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);}
+
+#bigimgbox { margin: auto; }
+
+#aboutustext { width: 505px; float: left; background-color: rgba(133,133,133,0.8); box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); padding: 0 20px; }
+#aboutustext h1 { margin: 10px 0; text-decoration: underline; text-shadow: 3px 3px 3px rgb(51,51,68); }
+#aboutimg { padding-left: 20px; float: right; }
+#textsection { background-color: rgba(133,133,133,0.8); 
+	float: right; padding: 0 20px; width: 600px; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);}
+	
+	
+#foot{ background-color: rgb(255,112,0); padding: 0 20px;}
+
+#copycontain { float: right; }
+
+#admin {float :left; }
+
+#videocontainer { width: 700px; height: 400px; background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.4) 100%); margin: auto; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); border-radius: 10px; }
+#videocontainer video { padding-top: 20px; margin: auto; display: block; }
+
+#gallery { width: 827px; margin: auto; }
+#gallery img { height: 150px; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); border: 5px white dashed; border-radius: 5px; margin: 20px; }
+
+
+/*
+===============================
+		Helper Classes
+===============================
+*/
+
+/*taken from boilerplate to help with css div heights being inherited correctly*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.textcenter {
+	text-align: center;
+}

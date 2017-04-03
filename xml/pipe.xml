@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<products>
+	<baseurl>img/prod/</baseurl>
+	<product>
+		<name>The Pipe Of Gandalf</name>
+		<img1>pipe/1.jpg</img1>
+		<img2>pipe/2.jpg</img2>
+		<img3>pipe/3.jpg</img3>
+		<img4>pipe/4.jpg</img4>
+		
+		<para1>Puff away on Longbottom Leaf like a true Istari with this nine inch wooden functional replica of Gandalf's pipe. Smoke  'em if you've got 'em! Gandalf is an eccentric leader, although perhaps not so eccentric as he could be, considering that he's a wizard. But his tall stature, tall hat, and long cloak make him stand out among the Hobbits he calls friends. Fortunately, though halflings may not understand magic, dragons, quests or magic rings, they do understand pipe-weed, and thus they get along famously with the grey wizard.
+		</para1>
+
+		<para2>Choose if you'd rather puff as a wizard or a halfling with these fully-functioning prop replicas from The Hobbit films. Or get both and be a halfling wizard. Both are approximately 9" long and made from wood. You provide your own Longbottom Leaf. Not guaranteed to allow you to turn a smoke ring into a smoke-ship.
+		</para2>
+	</product>
+</products>

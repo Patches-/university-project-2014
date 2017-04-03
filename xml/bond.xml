@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<products>
+	<baseurl>img/prod/</baseurl>
+	<product>
+		<name>James Bond Walther PPK</name>
+		<img1>bondgun/1.jpg</img1>
+		<img2>bondgun/2.jpg</img2>
+		<img3>bondgun/3.jpg</img3>
+		<img4>bondgun/4.jpg</img4>
+		
+		<para1>The Walther PPK is a German pistol issued to James Bond in the Ian Fleming novel, Dr. No. With the transition to the big screen, the PPK became Bond's primary weapon and was featured from 1962 (Dr. No) to 1997 (Tomorrow Never Dies). In the Tomorrow Never Dies, the transition was made to the Walther P99, which would be used for the rest of Pierce Brosnan's tenure as Bond.
+		</para1>
+
+		<para2>Although the promotional material for Casino Royale featured the PPK, it was only used during the pre-title fight sequence with Dryden's contact, Fisher. For the rest of the film, Bond would continue to rely on the P99. For 2008's Quantum of Solace, however, the Walther PPK made a welcome return as 007's main sidearm throughout the film. This trend continued in Skyfall (2012), where the spy was provided with a modified PPK/S.
+		</para2>
+	</product>
+</products>

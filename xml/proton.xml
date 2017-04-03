@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<products>
+	<baseurl>img/prod/</baseurl>
+	<product>
+		<name>Ghostbusters Proton Pack</name>
+		<img1>protonpack/1.jpg</img1>
+		<img2>protonpack/2.jpg</img2>
+		<img3>protonpack/3.jpg</img3>
+		<img4>protonpack/4.jpg</img4>
+		
+		<para1>The Proton pack, designed by Dr. Egon Spengler, is a man-portable particle accelerator system that is used to create a charged particle beam - composed of protons - that is fired by the proton gun (also referred to as the "neutrona wand". Described in the first movie as a "positron collider", it presumably functions by colliding high-energy positrons to generate its proton beam. The beam allows a ghostbuster to contain and hold "negatively charged ectoplasmic entities". This containment ability allows the wielder to position a ghost above a trap for capture.
+		</para1>
+
+		<para2>Ray's Pack in the first movie on the first bust is falsely assumed to have yellow lights in the upper part near the blue "powercell lights" (Blue light bar that flashes going up). It is actually due to the black paint being worn off of the fiberglass shell, allowing the power cell lights to illuminate through.  
+		</para2>
+	</product>
+</products>
